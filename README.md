@@ -6,7 +6,7 @@ Mix of Terraform and Kops examples for deploying **Kubernetes** cluster from scr
 ---
 #### **NOTE:**
 
-Kops - you will need only if you want try to deploy cluster with `kube-kops-example`.
+Kops - you will need only if you want to try to deploy cluster with `kube-kops-example`.
 <br />
 
 This examples are used AWS services which are **NOT** a `free tier` (K8s has hardware requirements). So, do not forget to delete your cluster if you don't use it. 
