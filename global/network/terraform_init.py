@@ -79,12 +79,12 @@ def create(name=def_name):
 def main():
     if args.new:
         b,t = create(args.new)
-        print("Bucket {} has been craeted\n".format(b))
-        print("Table {} has been craeted\n".format(t))
+        print("Bucket {} has been created\n".format(b))
+        print("Table {} has been created\n".format(t))
     else:
         b,t = create()
-        print("Bucket with default name {} has been craeted\n".format(b))
-        print("Table with default name {} has been craeted\n".format(t))
+        print("Bucket with default name {} has been created\n".format(b))
+        print("Table with default name {} has been created\n".format(t))
 
 if __name__ == "__main__": 
     main()

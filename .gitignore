@@ -49,3 +49,4 @@ override.tf.json
 pyvenv.cfg
 .venv
 pip-selfcheck.json
+*.admin.conf
